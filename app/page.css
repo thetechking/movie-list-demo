@@ -1,0 +1,11 @@
+.login-page {
+  display: flex;
+  align-items: center;
+}
+
+.login-form .form-check .form-check-input {
+  float: unset;
+}
+.form-check-label{
+  padding-left: 8px;
+}

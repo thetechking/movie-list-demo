@@ -1,0 +1,10 @@
+.movie-list-page{
+    display: flex;
+    align-items: center;
+    min-height: calc(100vh - var(--theme-space));
+}
+
+
+.button-padding{
+    padding: 0px !important;
+}
