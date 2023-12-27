@@ -1,0 +1,31 @@
+.drop-box {
+    border: 1px dashed white;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border-width: 2px;
+    position: relative;
+}
+
+.drop-info-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+@media (max-width: 991.98px) {
+    .drop-box {
+        height: 350px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .drop-box {
+        height: 200px;
+    }
+}
